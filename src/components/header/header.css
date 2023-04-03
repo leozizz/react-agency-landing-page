@@ -1,0 +1,26 @@
+.header {
+    height: 100px;
+    width: 100vw;
+  }
+
+.header-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container .logo {
+    height: 30px;
+}
+
+.header-container button {
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 10px;
+    background: none;
+}
+.header-container img{
+    height: 100%;
+}
