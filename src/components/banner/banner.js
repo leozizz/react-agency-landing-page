@@ -1,10 +1,19 @@
 import React from "react";
 import './banner.css';
+import Lottie from 'lottie-react';
+import Animation from './139117-app-development.json'
+
+const style = {
+    height: 500,
+};
 
 const Banner = () => {
     return (
         <div className="banner-container">
-            <iframe src="https://embed.lottiefiles.com/animation/140772"></iframe>
+            <Lottie
+                animationData={Animation}
+                style={style}
+            />
             <div>
                 <p>Brading / UI / UX / Tecnologia</p>
                 <h1>Agência de Brandind</h1>
