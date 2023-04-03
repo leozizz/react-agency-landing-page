@@ -3,3 +3,14 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.banner-animation {
+    width: 50%;
+}
+
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
