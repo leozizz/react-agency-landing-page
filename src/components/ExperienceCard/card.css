@@ -1,0 +1,19 @@
+.card {
+    border: 1px solid lightgray;
+    padding: 60px 15px;
+    width: 270px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: orange;
+    transition: 0.3s;
+}
+
+.card h4 {
+    margin: 5px 0;
+}
+
+.card p:last-child {
+    margin-top: 30px;
+}
