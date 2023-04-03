@@ -1,0 +1,54 @@
+.experience-container {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.description {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+}
+
+.description h3 {
+    font-size: 40px;
+}
+
+.description h3::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background: orange;
+    display: block;
+    margin: 35px auto;
+}
+
+.description p {
+    margin-bottom: 70px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid lightgray;
+    padding: 60px 15px;
+    width: 270px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: orange;
+    transition: 0.3s;
+}
+
+.card h4 {
+    margin: 5px 0;
+}
+
+.card p:last-child {
+    margin-top: 30px;
+}
