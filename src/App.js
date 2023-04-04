@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/header';
 import Banner from './components/Banner/banner';
 import WorkExperience from './components/WorkExperience/work';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
@@ -10,20 +11,7 @@ function App() {
       <Header />
       <Banner />
       <WorkExperience />
-
-      <footer>
-        <p>M</p>
-        <p>
-          Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.
-        </p>
-        <p>Icone</p>
-        <p>Icone</p>
-        <p>Icone</p>
-        <p>Icone</p>
-        <p>Icone</p>
-        <p>Icone</p>
-        <p>Copyright 2022</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
