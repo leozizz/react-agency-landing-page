@@ -1,0 +1,36 @@
+.footer-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center  ;
+}
+
+.footer-container .logo {
+   height: 100%;
+}
+
+.footer-container p {
+    margin-top: 30px;
+    width: 500px;
+}
+
+.footer-container .social {
+    margin-top: 40px;
+    height: 50px;
+    display: flex;
+}
+
+.footer-container .social img {
+    height: 100%;
+    padding: 5px;
+}
+
+.footer-container .copy {
+    margin: 80px 0px 20px 0px;
+}
+
+.footer-container .copy a {
+    color: #feb633;
+}
