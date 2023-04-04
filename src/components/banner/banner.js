@@ -9,7 +9,7 @@ const style = {
 
 const Banner = () => {
     return (
-        <div className="banner-container">
+        <div className="banner-container limitar-largura">
             <Lottie
                 className="banner-animation"
                 animationData={Animation}

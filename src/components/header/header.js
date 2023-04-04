@@ -8,7 +8,7 @@ const Header = (props) => {
 
     return (
         <header className="header">
-            <div className="header-container">
+            <div className="header-container limitar-largura">
                 <img className="logo" src="../assets/logo.png" alt="logo"/>
                 <button onClick={props.changeStyle}>
                     <img src={props.changeIcon ? moon : sun} alt="icone"/>

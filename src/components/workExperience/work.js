@@ -6,7 +6,7 @@ import Card from "../ExperienceCard/card";
 const WorkExperience = () => {
     return (
         <section className="experience-container">
-            <div className="description">
+            <div className="description limitar-lagura">
                 <h3>Experiências de Trabalho</h3>
                 <p>Há mais de 10 anos no mercado de Branding, Deisgn Gráfico, Criação de Sites e Marketing digital, nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.</p>
             </div>

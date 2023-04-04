@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="footer-container">
+            <div className="footer-container limitar-largura">
                 <img className="logo" src='./assets/logo.png' alt="logo"/>
                 <p>
                 Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.

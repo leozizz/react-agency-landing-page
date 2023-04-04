@@ -6,15 +6,17 @@
   text-decoration: none;
 }
 
-body {
-}
-
 h1, h2, h3, h4 {
   color: #32333c
 }
 
 p {
   color: #8a8fa3;
+}
+
+.limitar-largura {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .light-mode {
