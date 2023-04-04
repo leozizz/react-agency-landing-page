@@ -12,7 +12,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #022144;
     width: 50%;
 }
 
@@ -31,4 +30,15 @@
 .banner-title h2 {
     font-size: 45px;
     font-weight: 800;
+}
+
+.banner-title p, h1, h2 {
+    color: #022144;
+}
+
+.dark-mode .banner-title p, 
+.dark-mode .banner-title h1, 
+.dark-mode .banner-title h2 
+{
+    color: #fff;
 }

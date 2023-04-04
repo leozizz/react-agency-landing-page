@@ -1,5 +1,4 @@
 .experience-container {
-    background-color: #f6f8fc;
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -31,4 +30,20 @@
 .card-container {
     display: flex;
     justify-content: center;
+}
+
+/* Light-Mode */
+.light-mode .experience-container {
+    background-color: #f6f8fc;
+    transition: 0.5s;
+}
+
+/* Dark-Mode */
+.dark-mode .experience-container {
+    background-color: #393838;
+    transition: 0.5s;
+}
+
+.dark-mode .description p {
+    color: #9F9F9F;
 }

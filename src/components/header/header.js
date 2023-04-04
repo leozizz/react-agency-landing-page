@@ -1,13 +1,17 @@
 import React from "react";
 import './header.css';
 
-const Header = () => {
+const Header = (props) => {
+
+    const moon = "../assets/moon.png"
+    const sun = "../assets/sun.png"
+
     return (
         <header className="header">
             <div className="header-container">
                 <img className="logo" src="../assets/logo.png" alt="logo"/>
-                <button>
-                    <img src="../assets/moon.png"/>
+                <button onClick={props.changeStyle}>
+                    <img src={props.changeIcon ? moon : sun} alt="icone"/>
                 </button>
             </div>
         </header>

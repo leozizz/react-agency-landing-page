@@ -7,5 +7,30 @@
 }
 
 body {
+}
+
+h1, h2, h3, h4 {
+  color: #32333c
+}
+
+p {
+  color: #8a8fa3;
+}
+
+.light-mode {
   background-color: #fafbfc;
+  transition: 0.5s
+}
+
+.dark-mode {
+  background-color: #252525;
+  transition: 0.5s
+}
+
+.dark-mode h3 {
+  color: #CCCCCC;
+}
+
+.dark-mode h4 {
+  color: #fafbfc;
 }
