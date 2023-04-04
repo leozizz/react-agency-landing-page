@@ -12,5 +12,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #022144;
     width: 50%;
+}
+
+.banner-title p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.banner-title h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.banner-title h2 {
+    font-size: 45px;
+    font-weight: 800;
 }

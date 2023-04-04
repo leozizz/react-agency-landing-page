@@ -6,7 +6,7 @@
 }
 
 .card:hover {
-    background-color: orange;
+    background-color: #feb633;
     transition: 0.3s;
 }
 

@@ -1,5 +1,5 @@
 .experience-container {
-    background-color: gray;
+    background-color: #f6f8fc;
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -19,7 +19,7 @@
     content: "";
     width: 100px;
     height: 4px;
-    background: orange;
+    background: #feb633;
     display: block;
     margin: 35px auto;
 }
