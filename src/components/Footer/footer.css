@@ -13,7 +13,7 @@
 
 .footer-container p {
     margin-top: 30px;
-    width: 500px;
+    max-width: 500px;
 }
 
 .footer-container .social {
@@ -33,4 +33,10 @@
 
 .footer-container .copy a {
     color: #feb633;
+}
+
+@media (max-width: 375px) {
+    .footer-container p {
+        width: 300px;
+    }
 }

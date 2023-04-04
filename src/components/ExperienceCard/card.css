@@ -21,3 +21,9 @@
 .dark-mode .card p {
     color: #9F9F9F;
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

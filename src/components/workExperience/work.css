@@ -47,3 +47,19 @@
 .dark-mode .description p {
     color: #9F9F9F;
 }
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 375px) {
+    .experience-container {
+        padding: 80px 0px;
+    }
+
+    .card-container {
+        padding: 20px;
+    }
+}

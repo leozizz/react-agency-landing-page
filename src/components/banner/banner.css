@@ -42,3 +42,18 @@
 {
     color: #fff;
 }
+
+@media (max-width: 375px) {
+
+    .banner-container {
+        margin: 80px 0px;
+    }
+
+    .banner-animation {
+        display: none;
+    }
+
+    .banner-title {
+        width: 80%;
+    }
+}
