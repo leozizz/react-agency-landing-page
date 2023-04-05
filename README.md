@@ -22,8 +22,8 @@ Para executar a aplicação, siga os passos abaixo:
 
 ## Preview da Aplicação
 
-Desktop
+#### Desktop
 ![Preview Desktop](./public/assets/readme/desktop-preview.gif)
 
-Mobile
+#### Mobile
 ![Preview Mobile](./public/assets/readme/mobile-preview.gif)
